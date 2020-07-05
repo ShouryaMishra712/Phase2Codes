@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="150608" started-at="2020-07-05T17:49:30 IST" finished-at="2020-07-05T17:52:01 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="150608" started-at="2020-07-05T17:49:30 IST" finished-at="2020-07-05T17:52:01 IST">
+      <class name="com.project_Redbus.testcases.TC_SearchBus">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.project_Redbus.testcases.TC_SearchBus@6500df86]" name="startReport" is-config="true" duration-ms="680" started-at="2020-07-05T17:49:30 IST" finished-at="2020-07-05T17:49:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.project_Redbus.testcases.TC_SearchBus@6500df86]" name="launchBrowser" is-config="true" duration-ms="25165" started-at="2020-07-05T17:49:32 IST" finished-at="2020-07-05T17:49:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="getBuses1(java.util.Hashtable)[pri:0, instance:com.project_Redbus.testcases.TC_SearchBus@6500df86]" name="getBuses1" duration-ms="53991" started-at="2020-07-05T17:49:57 IST" data-provider="JourneyData" finished-at="2020-07-05T17:50:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{rDate=6 July 2020, browser=chrome, toS=ujj, fromS=ind, rTo=Ujjain, rFrom=Vijay Nagar, Indore}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBuses1 -->
+        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.project_Redbus.testcases.TC_SearchBus@6500df86]" name="CloseBrowser" is-config="true" duration-ms="6114" started-at="2020-07-05T17:50:51 IST" finished-at="2020-07-05T17:50:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getBuses1 status=SUCCESS method=TC_SearchBus.getBuses1(java.util.Hashtable)[pri:0, instance:com.project_Redbus.testcases.TC_SearchBus@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.project_Redbus.testcases.TC_SearchBus@6500df86]" name="launchBrowser" is-config="true" duration-ms="8333" started-at="2020-07-05T17:50:57 IST" finished-at="2020-07-05T17:51:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="getBuses1(java.util.Hashtable)[pri:0, instance:com.project_Redbus.testcases.TC_SearchBus@6500df86]" name="getBuses1" duration-ms="47000" started-at="2020-07-05T17:51:05 IST" data-provider="JourneyData" finished-at="2020-07-05T17:51:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{rDate=3 Aug 2020, browser=firefox, toS=pra, fromS=var, rTo=Prayagraj, rFrom=Varanasi}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBuses1 -->
+        <test-method status="PASS" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:com.project_Redbus.testcases.TC_SearchBus@6500df86]" name="CloseBrowser" is-config="true" duration-ms="7259" started-at="2020-07-05T17:51:52 IST" finished-at="2020-07-05T17:51:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getBuses1 status=SUCCESS method=TC_SearchBus.getBuses1(java.util.Hashtable)[pri:0, instance:com.project_Redbus.testcases.TC_SearchBus@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="stopTest()[pri:0, instance:com.project_Redbus.testcases.TC_SearchBus@6500df86]" name="stopTest" is-config="true" duration-ms="1199" started-at="2020-07-05T17:51:59 IST" finished-at="2020-07-05T17:52:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+      </class> <!-- com.project_Redbus.testcases.TC_SearchBus -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

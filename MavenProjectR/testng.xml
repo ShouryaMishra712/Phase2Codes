@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5" >
+  <test name="Test1">
+   <classes>
+      <class name="com.project_Redbus.testcases.TC_SearchBus"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2">
+   <classes>
+      <class name="com.project_Redbus.testcases.TC_SearchBusG"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
